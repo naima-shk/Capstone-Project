@@ -9,11 +9,17 @@ img{
 .d-flex{
     margin-right: 150px;
 }
-.my-image{
-    background: url('/capstone1.77c30de6.jpg');
-    background-size: cover;
-    background-repeat: repeat-x;
+.container{
+    background-image: url('/capstonehigh.ffe97503.jpg');
    
+    height: 300%;
+    width: 150%;
+}
+.my-image{
+    margin-bottom: 115px;
+   
+    
+    
 }
 
 /*# sourceMappingURL=/style.e308ff8e.css.map */
