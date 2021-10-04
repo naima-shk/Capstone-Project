@@ -21,3 +21,8 @@ img{
     
     
 }
+.img-fluid-sm{
+    padding: 170px;
+    margin-left: 320px;
+    width: 600px;
+}
