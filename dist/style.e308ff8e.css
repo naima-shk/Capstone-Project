@@ -1,30 +1,48 @@
+/* body {
+    background-image: url('./image/capstonehigh.jpg');
+    background-size: cover;
+} */
+​
 .nav-item {
     margin-left: 150px;
     font-size: large;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-img{
+​
+.img-fluid {
     margin-left: 90px;
 }
-.d-flex{
+​
+.d-flex {
     margin-right: 150px;
 }
-.container{
+​
+.container {
     background-image: url('/capstonehigh.ffe97503.jpg');
-   
-    height: 300%;
-    width: 150%;
+    width: 100%;
+    padding: 20px 0px;
+
+    background-size: cover;
 }
-.my-image{
-    margin-bottom: 115px;
-   
+​
+.my-image {
+     background-size: cover; 
     
     
 }
-.img-fluid-sm{
-    padding: 170px;
-    margin-left: 320px;
-    width: 600px;
+​
+.img-fluid-sm {
+    padding: 100px 50px;
+    margin-left: 200px;
+    width: 700px; 
+    height: 500px;
+
 }
+​
+.card-div{
+    background: rgba(255, 255, 255, 0.603);
+    
+}
+
 
 /*# sourceMappingURL=/style.e308ff8e.css.map */
