@@ -2,47 +2,46 @@
     background-image: url('./image/capstonehigh.jpg');
     background-size: cover;
 } */
-​
+
 .nav-item {
     margin-left: 150px;
     font-size: large;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-​
+
 .img-fluid {
     margin-left: 90px;
 }
-​
+
 .d-flex {
     margin-right: 150px;
 }
-​
+
 .container {
     background-image: url('/capstonehigh.ffe97503.jpg');
+    background-size: cover;
     width: 100%;
     padding: 20px 0px;
+}
 
-    background-size: cover;
-}
-​
 .my-image {
-     background-size: cover; 
-    
-    
+    /* background: rgba(240, 214, 255, 0.603); */
+    background-size: cover;
+    /* margin-bottom: 115px; */
 }
-​
+
 .img-fluid-sm {
     padding: 100px 50px;
     margin-left: 200px;
     width: 700px; 
     height: 500px;
-
 }
-​
+
 .card-div{
     background: rgba(255, 255, 255, 0.603);
-    
+    background-size: cover;
 }
 
+/* trbl */
 
 /*# sourceMappingURL=/style.e308ff8e.css.map */
