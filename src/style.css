@@ -19,16 +19,15 @@
 ​
 .container {
     background-image: url('./image/capstonehigh.jpg');
+    background-size: cover;
     width: 100%;
     padding: 20px 0px;
-
-    background-size: cover;
 }
 ​
 .my-image {
-     background-size: cover; 
-    
-    
+    /* background: rgba(240, 214, 255, 0.603); */
+    background-size: cover;
+    /* margin-bottom: 115px; */
 }
 ​
 .img-fluid-sm {
@@ -36,10 +35,9 @@
     margin-left: 200px;
     width: 700px; 
     height: 500px;
-
 }
 ​
 .card-div{
     background: rgba(255, 255, 255, 0.603);
-    
+    background-size: cover;
 }
