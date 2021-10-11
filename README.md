@@ -3,6 +3,11 @@
 - This repo is for Capstone Project name 'Success Factor'.
 - This activity is based on  live projects which is supervised by Ma'am Saleha Shujjat, She is currently serving as a Software Engineer at renowned start up. 
 
+## Group Members
+- Naima Shaikh (Team-Lead)
+- Aqeela
+- Abida Nizam 
+- Muhammad Hassan Irfan
 
 ## What does this app do?
 - Motivation behind this website is to create life skills related website on which user will get a chance  to read details about life skills and get  a link of relevant books ,also know more about public speakers who talks about life skills.
