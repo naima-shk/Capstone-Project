@@ -1,6 +1,6 @@
 
 ## Capstone-Project
-- This repo is for Capstone Project.
+- This repo is for Capstone Project name 'Success Factor'.
 - This activity is based on  live projects which is supervised by Ma'am Saleha Shujjat, She is currently serving as a Software Engineer at renowned start up. 
 
 
