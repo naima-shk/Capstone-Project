@@ -22,6 +22,7 @@
     background-size: cover;
     width: 100%;
     padding: 20px 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .my-image {
@@ -41,10 +42,10 @@
     background: rgba(255, 255, 255, 0.603);
     background-size: cover;
 }
-.w3-half{
+/*.w3-half{
     margin-left: 100px;
     padding: 30px;
-}
+}*/
 
 .button1 {
     background-color: white; 
@@ -52,26 +53,27 @@
     border: 2px solid #510f57;
     padding: 10px;
     text-align: center;
-    margin: auto;
+    margin: 500px;
     display: flex;
-    justify-content: center;  
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(150, 6, 107, 0.993);
+justify-content: right; 
+align-items: right;  
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(150, 6, 107, 0.993); 
 
 }
+  
 .button1:hover {
     background-color: #5b1e5e;
     color: white;
   }
+
   #image{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(150, 6, 107, 0.993);
-    margin-right: 20px;
-  
   }
-  p{
-      margin-left: 100px;
-      padding-bottom: 80px;
-  }
-  h1,h2,h3,h4,h5,h6 {
+  body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
      letter-spacing:5px;
      padding-top: 0px;
@@ -82,6 +84,36 @@ p::first-letter {
     font-size: 200%;
     color: #060408;
     text-shadow: 2px 1px;
-
+}
+em{
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card{
+    margin-top: 10%;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 7px;
+    height: max-content;
+  
   }
-/* trbl */
+  .card img{
+    height: 350px;
+    width:100%;
+  
+  } 
+  .card img:hover{
+    border: none;
+    border-radius: 7px;
+    box-shadow: 2px 5px 5px 10px rgb(168, 131, 168);
+    cursor: pointer;
+  
+  }
+  .row{
+    margin-top: 5%;
+  } 
+  .fab  {
+    height: 34px;
+    width: 34px;
+    
+  }
