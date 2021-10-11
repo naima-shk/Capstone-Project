@@ -1,0 +1,42 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     letter-spacing:5px;
+     padding-top: 0px;
+     text-shadow: 2px 2px;
+     text-align: center;
+}
+p::first-letter {
+    font-size: 200%;
+    color: #060408;
+    text-shadow: 2px 1px;
+
+  }
+#image{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(150, 6, 107, 0.993);
+
+}
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #510f57;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+justify-content: center;  
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(150, 6, 107, 0.993);
+
+}
+  
+.button1:hover {
+    background-color: #5b1e5e;
+    color: white;
+  }
+
+
+
+/*# sourceMappingURL=/selfstyles.4752f434.css.map */

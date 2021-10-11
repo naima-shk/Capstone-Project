@@ -18,7 +18,7 @@
 }
 
 .container {
-    background-image: url('./image/capstonehigh.jpg');
+    background-image: url('/capstonehigh.ffe97503.jpg');
     background-size: cover;
     width: 100%;
     padding: 20px 0px;
@@ -117,3 +117,5 @@ em{
     width: 34px;
     
   }
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
