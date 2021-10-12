@@ -20,6 +20,6 @@
 - Browser (as runtime environment)
 ## How to run code in this repo?
 - To run this app, click live github website link given below.
-- Live link:
+- Live link: https://capstone-project-success-factor.netlify.app/
 - Repo Link: https://github.com/naima-shk/Capstone-Project
 
