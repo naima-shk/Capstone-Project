@@ -1,6 +1,5 @@
 /* body {
-    background-image: url('./image/capstonehigh.jpg');
-    background-size: cover;
+  
 } */
 
 .nav-item {
@@ -116,6 +115,10 @@ em{
     height: 34px;
     width: 34px;
     
+  }
+  #selfawareness{
+      background-color: #b19cd9;
+      box-shadow: 10px;
   }
 
 /*# sourceMappingURL=/style.e308ff8e.css.map */
