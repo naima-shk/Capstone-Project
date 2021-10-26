@@ -6,3 +6,6 @@
       x.style.display = "none";
     }
   }*/
+
+  function mylogin(){
+    document.location.href = "login.html";  }

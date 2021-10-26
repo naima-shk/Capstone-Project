@@ -1,0 +1,284 @@
+/* body {
+    background-image: url('./image/capstonehigh.jpg');
+    background-size: cover;
+} */
+
+.nav-item {
+    margin-left: 150px;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.img-fluid {
+    margin-left: 90px;
+}
+
+.d-flex {
+    margin-right: 150px;
+}
+
+.container {
+    background-image: url('./image/a.jpg');
+    background-size: cover;
+    width: 100%;
+    padding: 20px 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.my-image {
+    /* background: rgba(240, 214, 255, 0.603); */
+    background-size: cover;
+    /* margin-bottom: 115px; */
+}
+
+.img-fluid-sm {
+    padding: 100px 50px;
+    margin-left: 200px;
+    width: 700px; 
+    height: 500px;
+}
+
+.card-div{
+    background: rgba(255, 255, 255, 0.603);
+    background-size: cover;
+}
+/*.w3-half{
+    margin-left: 100px;
+    padding: 30px;
+}*/
+
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #510f57;
+    padding: 10px;
+    text-align: center;
+    margin: 2px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(150, 6, 107, 0.993); 
+
+}
+  
+.button1:hover {
+    background-color: #5b1e5e;
+    color: white;
+  }
+
+  #image{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(150, 6, 107, 0.993);
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: initial;
+  }
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+  body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     letter-spacing:5px;
+     padding-top: 0px;
+     text-shadow: 2px 2px;
+     text-align: center;
+     color: white;
+    }
+p::first-letter {
+    font-size: 200%;
+    color: #ffffff;
+    text-shadow: 2px 1px;
+    white-space: pre;
+}
+
+em{
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card{
+    margin-top: 7%;
+    margin-bottom: 7%;
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 7px;
+    height: max-content;
+  
+  }
+  .card img{
+    height: 250px;
+    width:100%;
+  
+  } 
+  .card img:hover{
+    border: none;
+    border-radius: 7px;
+    box-shadow: 2px 5px 5px 10px rgb(168, 131, 168);
+    cursor: pointer;
+  
+  }
+  .row{
+    margin-top: 5%;
+  } 
+  .fab  {
+    height: 34px;
+    width: 34px;
+    
+  }
+
+  #h5{
+      color: black;
+  }
+
+  /* for responsiveness of a website such as laptop or tablet */
+
+  
+  /* For devices 400px and larger: */
+  @media only screen and (max-width: 600px) {
+    .flex-container {
+        flex-direction: column;
+      }
+
+    .nav-item ,.dropdown-item {
+        margin-left: 50px;
+        font-size: small;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    .img-fluid {
+        margin-left: 5px;
+    }
+    
+    .d-flex {
+        margin-right: 5px;
+    }
+    
+    .container {
+        background-image: url('./image/a.jpg');
+        background-size: cover;
+        width: 20%;
+        padding: 1px 1px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    .img-fluid-sm {
+        padding: 2px 2px;
+        margin-left: 1px;
+        margin-right: 1px;
+        width: 400px; 
+        height: 500px;
+    }
+    .d-block, .img-fluid-sm{
+        width: 370px; 
+        height: 500px;
+        padding: 50px 25px;
+    }
+    
+    .card-div{
+        background: rgba(255, 255, 255, 0.603);
+        background-size: cover;
+    }
+    /*.w3-half{
+        margin-left: 100px;
+        padding: 30px;
+    }*/
+    .button1 {
+        background-color: white; 
+        color: black; 
+        border: 2px solid #510f57;
+        padding: 10px;
+        text-align: center;
+        margin: 2px;
+        display: flex;
+        justify-content: center; 
+        align-items: center;  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(150, 6, 107, 0.993); 
+    
+    }
+      
+    .button1:hover {
+        background-color: #5b1e5e;
+        color: white;
+      }
+      body {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    h1,h2,h3,h4,h5,h6 {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+         letter-spacing:2px;
+         padding-top: 0px;
+         text-shadow: 1px 1px;
+         text-align: center;
+         color: white;
+         font-size: small;
+        }
+    p::first-letter {
+        font-size: 200%;
+        color: #ffffff;
+        text-shadow: 2px 1px;
+        white-space: pre;
+    }
+    p,li, .w3-center{
+        text-align: center;
+        color: white;
+        font-size: smaller;
+    }
+    
+    em{
+        font-size: smaller;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .card{
+        margin-top: 7%;
+        margin-bottom: 7%;
+        box-sizing: border-box;
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 7px;
+        height: max-content;
+      
+      }
+      .card img{
+        height: 250px;
+        width:100%;
+      
+      } 
+      .card img:hover{
+        border: none;
+        border-radius: 7px;
+        box-shadow: 2px 5px 5px 10px rgb(168, 131, 168);
+        cursor: pointer;
+      
+      }
+      .row{
+        margin-top: 5%;
+      } 
+      .fab  {
+        height: 34px;
+        width: 34px;
+        
+      }
+    
+      #h5{
+          color: black;
+
+      }
+      .footer {
+          color: white;
+      }
+  }
+  
