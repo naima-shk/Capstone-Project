@@ -4,18 +4,20 @@
 <head>
   <title>A JavaScript project</title>
   <link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="shortcut icon" type="text/image" href="images (2).jpg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 </head>
-<body>
-  <nav class="navbar navbar-expand-lg navbar sticky-top navbar-light bg-light">
+
+<body style="background: #FDD9F5;">
+
+  <!-- starting navbar -->
+  <nav class="navbar navbar-expand-lg navbar sticky-top navbar-light" style="background-color: #B889D2;">
     <div class="container-fluid">
-      <!--<img src="./image/Logo (2).png" alt="banner-img" class="img-fluid" height="20px" width="50px">-->
-       <!--<a class="navbar-brand" href="#">Navbar</a>-->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -23,26 +25,36 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-4 mb-lg-1">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#"> <em>Success Factors</em></a>
+            <a class="nav-link active" aria-current="page" href="index.html"> <em>Success Factors</em></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fa fa-home"></i>Home</a>
+            <a class="nav-link" href="index.html"><i class="fa fa-home"></i>Home</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
               aria-expanded="true"><i class="fa fa-list"></i>Life Skills</a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#selfawareness"><i class="fa fa-hand-o-right"></i>Self_Awareness</a></li>
+              <li><a class="dropdown-item" href="#selfawareness"><i class="fa fa-hand-o-right"></i>Self_Awareness</a>
+              </li>
               <li><a class="dropdown-item" href="#empathy"><i class="fa fa-hand-o-right"></i>Empathy</a></li>
-              <li><a class="dropdown-item" href="#criticalthinking"><i class="fa fa-hand-o-right"></i>Critical Thinking</a></li>
-              <li><a class="dropdown-item" href="#decisionmaking"><i class="fa fa-hand-o-right"></i>Dicision Making</a></li>
-              <li><a class="dropdown-item" href="#problemsolving"><i class="fa fa-hand-o-right"></i>Problem Solving</a></li>
-              <li><a class="dropdown-item" href="#timemanagement"><i class="fa fa-hand-o-right"></i>Time Management</a></li>
-              <li><a class="dropdown-item" href="#creativethinking"><i class="fa fa-hand-o-right"></i>Creative Thinking</a></li>
-              <li><a class="dropdown-item" href="#communication"><i class="fa fa-hand-o-right"></i>Communication</a></li>
-              <li><a class="dropdown-item" href="#interpersonal"><i class="fa fa-hand-o-right"></i>Interpersonal Relationship</a></li>
-              <li><a class="dropdown-item" href="#stress"><i class="fa fa-hand-o-right"></i>Coping with Stress(Facing Difficult Situation)</a></li>
-              <li><a class="dropdown-item" href="#emotional"><i class="fa fa-hand-o-right"></i>Emotional Intelligence</a></li>
+              <li><a class="dropdown-item" href="#criticalthinking"><i class="fa fa-hand-o-right"></i>Critical
+                  Thinking</a></li>
+              <li><a class="dropdown-item" href="#decisionmaking"><i class="fa fa-hand-o-right"></i>Dicision Making</a>
+              </li>
+              <li><a class="dropdown-item" href="#problemsolving"><i class="fa fa-hand-o-right"></i>Problem Solving</a>
+              </li>
+              <li><a class="dropdown-item" href="#timemanagement"><i class="fa fa-hand-o-right"></i>Time Management</a>
+              </li>
+              <li><a class="dropdown-item" href="#creativethinking"><i class="fa fa-hand-o-right"></i>Creative
+                  Thinking</a></li>
+              <li><a class="dropdown-item" href="#communication"><i class="fa fa-hand-o-right"></i>Communication</a>
+              </li>
+              <li><a class="dropdown-item" href="#interpersonal"><i class="fa fa-hand-o-right"></i>Interpersonal
+                  Relationship</a></li>
+              <li><a class="dropdown-item" href="#stress"><i class="fa fa-hand-o-right"></i>Coping with Stress(Facing
+                  Difficult Situation)</a></li>
+              <li><a class="dropdown-item" href="#emotional"><i class="fa fa-hand-o-right"></i>Emotional
+                  Intelligence</a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -50,17 +62,40 @@
           </li>
         </ul>
         <form class="d-flex">
-          <button class="btn btn-outline-success" type="submit">Login</button>
+          <button class="btn btn-outline-success" type="button" onclick="mylogin()">Login</button>
         </form>
       </div>
     </div>
   </nav>
+  <!-- End nav bar -->
 
+  <!-- start carousel -->
   <div class="container">
     <!-- <img src="./image/capstonehigh.jpg" alt="cover-img" class="img-fluid-sm"  > -->
     <div class="my-image">
       <div id="carouselExampleControls" class="carousel slide border border-5" data-bs-ride="carousel">
         <div class="carousel-inner">
+          <div class="carousel-item">
+            <img src="./image/1.jpg" class="d-block img-fluid-sm" alt="First Slide">
+          </div>
+          <div class="carousel-item">
+            <img src="./image/2.jpg" class="d-block img-fluid-sm" alt="Second Slide">
+          </div>
+          <div class="carousel-item">
+            <img src="./image/3.jpg" class="d-block img-fluid-sm" alt="Third Slide">
+          </div>
+          <div class="carousel-item">
+            <img src="./image/4.jpg" class="d-block img-fluid-sm" alt="Third Slide">
+          </div>
+          <div class="carousel-item">
+            <img src="./image/5.jpg" class="d-block img-fluid-sm" alt="Third Slide">
+          </div>
+          <div class="carousel-item">
+            <img src="./image/6.jpg" class="d-block img-fluid-sm" alt="Third Slide">
+          </div>
+          <div class="carousel-item">
+            <img src="./image/7.jpg" class="d-block img-fluid-sm" alt="Third Slide">
+          </div>  
           <div class="carousel-item active">
             <img src="./image/in-design.jpg" class="d-block img-fluid-sm" alt="First Slide">
           </div>
@@ -91,455 +126,583 @@
 
     </div>
   </div>
-<br>
-  
-
-  <!-- JS Files -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-    crossorigin="anonymous"></script>
-  <script src="main.js"></script>
-  <!--<script src="index.js"></script>-->
+  <br>
+  <!-- End Carousel -->
 
 
-<!-- self awareness About -->
-<div class="container" style="height: fit-content;">
-  <div id="carouselExampleControls" class="carousel slide border border-4" data-bs-ride="carousel">
-<div class="my-image">
-<div id="selfawareness" >
-<div  class="w3-padding-top-1" >
-  <h1 class="w3-center" >SELF_AWARENESS</h1><br></div>
-  
-  <div class="w3-half w3-padding-small w3-visible-small w3-center"><br>
-  <img class="flex-container" class="w3-image" src="./images/self_awareness.jpg"  class="w3-round w3-image w3-opacity-min" alt="Table" style="width:90%" id="image"><br><br>
+
+
+  <!-- self awareness About -->
+  <div class="container" style="height: fit-content;">
+    <div id="carouselExampleControls" class="carousel slide border border-4" data-bs-ride="carousel">
+      <div class="my-image">
+        <div id="selfawareness">
+          <div class="w3-padding-top-1">
+            <h1 class="w3-center">SELF_AWARENESS</h1><br>
+          </div>
+
+          <div class="w3-half w3-padding-small w3-visible-small w3-center"><br>
+            <img class="flex-container" class="w3-image" src="./images/self_awareness.jpg"
+              class="w3-round w3-image w3-opacity-min" alt="Table" style="width:90%" id="image"><br><br>
+          </div>
+
+          <div class="w3-half w3-padding-small">
+            <h1 class="w3-center">DESCRIPTION</h1><br>
+            <!--<h5 class="w3-center"></h5> -->
+            <p class="w3-meduim w3-text-white">
+              <b>Self-Awareness</b> involves being aware of the various aspects of self-involvement that include traits,
+              behaviors, and feelings. In fact, it is a state of mind where the focus is on yourself. Humans are born
+              with a perfectly sound mind. However, research has also found that infants have a basic sense of
+              self-worth. An example of self-awareness is your ability to share your beliefs with others. It helps us
+              become better decision-makers It gives us more confidence.
+            </p>
+            <p class="w3-meduim w3-text-white w3-hide-medium">
+              Self-Awareness is the ability to tune in to your feelings, thoughts, and actions. Being self-aware also
+              means being able to recognize how other people see you. People who are self-aware recognize their
+              strengths and their challenges.</p>
+          </div>
+        </div>
+        <a class="nav-link active" aria-current="page" target="blank"
+          href="https://www.linkedin.com/pulse/self-awareness-foundation-emotional-intelligence-daniel-goleman/">
+          <button class="button1"> <b>Read More</b> </button></a><br>
+      </div>
+    </div>
   </div>
-  
-  <div class="w3-half w3-padding-small">
-  <h1 class="w3-center">DESCRIPTION</h1><br>
-  <!--<h5 class="w3-center"></h5> -->
-  <p class="w3-meduim w3-text-white">
-      <b>Self-Awareness</b> involves being aware of the various aspects of self-involvement that include traits, behaviors, and feelings. In fact, it is a state of mind where the focus is on yourself. Humans are born with a perfectly sound mind. However, research has also found that infants have a basic sense of self-worth. An example of self-awareness is your ability to share your beliefs with others. It helps us become better decision-makers It gives us more confidence.  </p>
-  <p class="w3-meduim w3-text-white w3-hide-medium">
-      Self-Awareness is the ability to tune in to your feelings, thoughts, and actions. Being self-aware also means being able to recognize how other people see you. People who are self-aware recognize their strengths and their challenges.</p>
-  </div></div>
-  <button class="button1" ><b>Read More<a class="nav-link active" aria-current="page" href="https://www.linkedin.com/pulse/self-awareness-foundation-emotional-intelligence-daniel-goleman/"> </a></b></button><br>
-</div>
-</div>
-</div>
   <!-- End Content -->
   <br><br>
 
   <!-- Empathy -->
   <div class="container" style="height: fit-content;">
     <div id="carouselExampleControls" class="carousel slide border border-4" data-bs-ride="carousel">
-  <div class="my-image">
+      <div class="my-image">
 
-  <div id="empathy" >
-    <div class="w3-padding-top-1">
-    <h1 class="w3-center">EMPATHY</h1><br></div>
+        <div id="empathy">
+          <div class="w3-padding-top-1">
+            <h1 class="w3-center">EMPATHY</h1><br>
+          </div>
 
-        <div class="w3-half w3-padding-large w3-visible-small"><br><br><br>
-            <img src="./images/Empathy.png" class="w3-round w3-image w3-opacity-min" alt="Table"
-                style="width:90% ;" id="image"><br><br>
-        </div>
+          <div class="w3-half w3-padding-large w3-visible-small"><br><br><br>
+            <img src="./images/Empathy.png" class="w3-round w3-image w3-opacity-min" alt="Table" style="width:90% ;"
+              id="image"><br><br>
+          </div>
 
-        <div class="w3-half w3-padding-small">
+          <div class="w3-half w3-padding-small">
             <h1 class="w3-center">DESCRIPTION</h1><br>
             <!--<h5 class="w3-center"></h5> -->
             <p class="w3-meduim w3-text-white">
-                <b>Empathy</b> is the ability to empathize with other people's feelings, to see things from their
-                point of view, and to imagine yourself in their place.
-                is a powerful concern for the well-being and happiness of others. There are several types of empathy
-                a person may experience:
+              <b>Empathy</b> is the ability to empathize with other people's feelings, to see things from their
+              point of view, and to imagine yourself in their place.
+              is a powerful concern for the well-being and happiness of others. There are several types of empathy
+              a person may experience:
             </p>
 
-            <li class="w3-meduim w3-text-white"><b>Affected Empathy </b> involves the ability to understand another person's
-                feelings and respond appropriately.</li>
+            <li class="w3-meduim w3-text-white"><b>Affected Empathy </b> involves the ability to understand another
+              person's
+              feelings and respond appropriately.</li>
 
-            <li class="w3-meduim w3-text-white"><b>Somatic </b> sensitivity involves having some form of physical response to
-                responding to another person's experience.
-                People sometimes feel what someone else is feeling.</li>
-            <li class="w3-meduim w3-text-white"><b>Cognitive Empathy </b> involves being able to understand another person's state
-                of mind and what they can think of in response to a situation.
-              </li>
-            </div></div>
-            <button class="button1" ><b>Read More <a class="nav-link active" aria-current="page" href="https://blog.hubspot.com/marketing/books-make-you-more-empathetic"> </a></b></button><br>
-          </div></div></div>
-            <!-- End Content -->
-
-            <br><br>
-
- <!--  Critical Thinking About -->
- <div class="container" style="height: fit-content;">
-  <div id="carouselExampleControls" class="carousel slide border border-4" data-bs-ride="carousel">
-<div class="my-image">
- <div id="criticalthinking" >
-<div class="w3-padding-top-1">
-  <h1 class="w3-center">CRITICAL THINKING</h1><br></div>
-  
-  <div class="w3-half w3-padding-large w3-visible-small">
-  <img src="./images/critical_thinking.jpg"  class="w3-round w3-image w3-opacity-min" alt="Table" style="width:90%" id="image"><br>
+            <li class="w3-meduim w3-text-white"><b>Somatic </b> sensitivity involves having some form of physical
+              response to
+              responding to another person's experience.
+              People sometimes feel what someone else is feeling.</li>
+            <li class="w3-meduim w3-text-white"><b>Cognitive Empathy </b> involves being able to understand another
+              person's state
+              of mind and what they can think of in response to a situation.
+            </li>
+          </div>
+        </div>
+        <a class="nav-link active" aria-current="page" target="blank"
+          href="https://blog.hubspot.com/marketing/books-make-you-more-empathetic">
+          <button class="button1"> <b>Read More</b> </button></a><br>
+      </div>
+    </div>
   </div>
-  
-  <div class="w3-half w3-padding-small">
-  <h1 class="w3-center">DESCRIPTION</h1><br>
-  <!--<h5 class="w3-center"></h5> -->
-  <p class="w3-meduim w3-text-white w3-hide-medium">
-      <b>Critical Thinking</b> is when the information is collected in the form of any experience or view and is used to analyze, use or evaluate the information collected it is called critical thinking. There are four main aspects to analytical thinking; self-discipline, self-control, and self-discipline. </p>
-  <p class="w3-meduim w3-text-white w3-hide-medium">
-      There are 7 steps that help to improve the process of deep thinking.
-      <li class="w3-meduim w3-text-white w3-hide-medium">Identify the problem</li>
-          <li class="w3-meduim w3-text-white w3-hide-medium">Gather the details</li>
-          <li class="w3-meduim w3-text-white w3-hide-medium">Check the details</li>
-          <li class="w3-meduim w3-text-white w3-hide-medium">Make a decision based on the accuracy of the information</li>
-          <li class="w3-meduim w3-text-white w3-hide-medium">Measure</li>
-          <li class="w3-meduim w3-text-white w3-hide-medium">Perform the analysis</li>
-          <li class="w3-meduim w3-text-white w3-hide-medium">Describe your analysis.</li>
-  </p>
-</div></div><br>
-<button class="button1" ><b>Read More <a class="nav-link active" aria-current="page" href="https://pdfhive.com/thinking-skills-critical-thinking-and-problem-solving/"> </a></b></button><br><br>
-</div></div></div>
-<!-- End Content -->
+  <!-- End Content -->
 
-<br><br>
+  <br><br>
 
+  <!--  Critical Thinking About -->
+  <div class="container" style="height: fit-content;">
+    <div id="carouselExampleControls" class="carousel slide border border-4" data-bs-ride="carousel">
+      <div class="my-image">
+        <div id="criticalthinking">
+          <div class="w3-padding-top-1">
+            <h1 class="w3-center">CRITICAL THINKING</h1><br>
+          </div>
 
+          <div class="w3-half w3-padding-large w3-visible-small">
+            <img src="./images/critical_thinking.jpg" class="w3-round w3-image w3-opacity-min" alt="Table"
+              style="width:90%" id="image"><br>
+          </div>
 
- <!-- Dicision Making  About -->
- <div class="container" style="height: fit-content;">
-  <div id="carouselExampleControls" class="carousel slide border border-4" data-bs-ride="carousel">
-<div class="my-image">
-
- <div id="decisionmaking">
-  <div  class="w3-padding-top-1" >
-  <h1 class="w3-center">DECISION MAKING</h1><br></div>
-  
-  <div class="w3-half w3-padding-large w3-visible-small"><br><br>
-  <img src="./images/decision_making.jpg"  class="w3-round w3-image w3-opacity-min" alt="Table" style="width:90%" id="image"><br><br>
+          <div class="w3-half w3-padding-small">
+            <h1 class="w3-center">DESCRIPTION</h1><br>
+            <!--<h5 class="w3-center"></h5> -->
+            <p class="w3-meduim w3-text-white w3-hide-medium">
+              <b>Critical Thinking</b> is when the information is collected in the form of any experience or view and is
+              used to analyze, use or evaluate the information collected it is called critical thinking. There are four
+              main aspects to analytical thinking; self-discipline, self-control, and self-discipline.
+            </p>
+            <p class="w3-meduim w3-text-white w3-hide-medium">
+              There are 7 steps that help to improve the process of deep thinking.
+              <li class="w3-meduim w3-text-white w3-hide-medium">Identify the problem</li>
+              <li class="w3-meduim w3-text-white w3-hide-medium">Gather the details</li>
+              <li class="w3-meduim w3-text-white w3-hide-medium">Check the details</li>
+              <li class="w3-meduim w3-text-white w3-hide-medium">Make a decision based on the accuracy of the
+                information</li>
+              <li class="w3-meduim w3-text-white w3-hide-medium">Measure</li>
+              <li class="w3-meduim w3-text-white w3-hide-medium">Perform the analysis</li>
+              <li class="w3-meduim w3-text-white w3-hide-medium">Describe your analysis.</li>
+            </p>
+          </div>
+        </div><br>
+        <a class="nav-link active" aria-current="page" target="blank"
+          href="https://pdfhive.com/thinking-skills-critical-thinking-and-problem-solving/">
+          <button class="button1"> <b>Read More</b> </button> </a><br><br>
+      </div>
+    </div>
   </div>
-  
-  <div class="w3-half w3-padding-small">
-  <h1 class="w3-center">DESCRIPTION</h1><br>
-  <!--<h5 class="w3-center"></h5> -->
-  <p class="w3-meduim w3-text-white w3-hide-medium">
-      <b>Decision Making</b> is the process in which one has to make a rational and explainable choice out of more than one option. The term decision making is also referred to as a cognitive process.</p>
-      <p class="w3-meduim w3-text-white w3-hide-medium">
-        There are three types of decision making:
-       <b>Strategic decision</b> where upper-level management of the organization makes long-term decisions that set the direction for an entire organization.
-       <b> decision</b> where decisions regarding how things will be done are taken.
-       <b>Operational decision</b> where day-to-day decisions are made by the lower-level employees to run the operations of the organization smoothly.
-      </p>
-    </div></div><br>
-    <button class="button1" ><b>Read More <a class="nav-link active" aria-current="page" href="https://www.barnesandnoble.com/b/free-ebooks/ebooks-nook/education-general-miscellaneous/decision-making-problem-solving/_/N-ry0Z8qaZzn1"> </a></b></button><br>
-  </div></div></div>
-    <!-- End Content -->
+  <!-- End Content -->
 
-    <br><br>
+  <br><br>
 
 
- <!-- Problem Solving About -->
- <div class="container" style="height: fit-content;">
-  <div id="carouselExampleControls" class="carousel slide border border-4" data-bs-ride="carousel">
-<div class="my-image">
 
- 
- <div id="problemsolving" >
-  <div  class="w3-padding-top-1" >
-  <h1 class="w3-center">PROBLEM SOLVING</h1><br></div>
-  
-  <div class="w3-half w3-padding-large w3-visible-small"><br><br><br><br>
-  <img src="./images/probelm_solving.jpg"  class="w3-round w3-image w3-opacity-min" alt="Table" style="width:90%" id="image"><br><br><br><br>
+  <!-- Dicision Making  About -->
+  <div class="container" style="height: fit-content;">
+    <div id="carouselExampleControls" class="carousel slide border border-4" data-bs-ride="carousel">
+      <div class="my-image">
+
+        <div id="decisionmaking">
+          <div class="w3-padding-top-1">
+            <h1 class="w3-center">DECISION MAKING</h1><br>
+          </div>
+
+          <div class="w3-half w3-padding-large w3-visible-small"><br><br>
+            <img src="./images/decision_making.jpg" class="w3-round w3-image w3-opacity-min" alt="Table"
+              style="width:90%" id="image"><br><br>
+          </div>
+
+          <div class="w3-half w3-padding-small">
+            <h1 class="w3-center">DESCRIPTION</h1><br>
+            <!--<h5 class="w3-center"></h5> -->
+            <p class="w3-meduim w3-text-white w3-hide-medium">
+              <b>Decision Making</b> is the process in which one has to make a rational and explainable choice out of
+              more than one option. The term decision making is also referred to as a cognitive process.
+            </p>
+            <p class="w3-meduim w3-text-white w3-hide-medium">
+              There are three types of decision making:
+              <b>Strategic decision</b> where upper-level management of the organization makes long-term decisions that
+              set the direction for an entire organization.
+              <b> decision</b> where decisions regarding how things will be done are taken.
+              <b>Operational decision</b> where day-to-day decisions are made by the lower-level employees to run the
+              operations of the organization smoothly.
+            </p>
+          </div>
+        </div><br>
+        <a class="nav-link active" aria-current="page"
+          href="https://www.barnesandnoble.com/b/free-ebooks/ebooks-nook/education-general-miscellaneous/decision-making-problem-solving/_/N-ry0Z8qaZzn1">
+          <button class="button1"><b>Read More</b></button></a><br>
+      </div>
+    </div>
   </div>
-  
-  <div class="w3-half w3-padding-small">
-  <h1 class="w3-center">DESCRIPTION</h1><br>
-  <!--<h5 class="w3-center"></h5> -->
-  <p class="w3-meduim w3-text-white w3-hide-medium">
-      <b>Problem Solving </b> is the process of finding a solution to issues that are critical and needs to be worked on urgently also requires attention.
-       If a particular person has the ability to cope up with any difficult situation, then that person is said to have problem-solving skills.
-        Problem-solving is considered one of the most valuable skills and organizations consider this skill while hiring an employee.
-         These are the steps for problem-solving: 
-      <li class="w3-meduim w3-text-white w3-hide-medium">Identify the problem</li>
-      <li class="w3-meduim w3-text-white w3-hide-medium"> The reason behind the occurrence of the problem </li>
-      <li class="w3-meduim w3-text-white w3-hide-medium">List all the solutions possible for solving that problem  </li>
-      <li class="w3-meduim w3-text-white w3-hide-medium">Choose the best fit </li>	
-      <li class="w3-meduim w3-text-white w3-hide-medium">Implement the solution </li>
-      <li class="w3-meduim w3-text-white w3-hide-medium">Evaluation of results</li> 
-  </p>
-      
-      
-</div></div><br>
-<button class="button1" > <b>Read More <a class="nav-link active" aria-current="page" href="https://www.barnesandnoble.com/b/free-ebooks/ebooks-nook/education-general-miscellaneous/decision-making-problem-solving/_/N-ry0Z8qaZzn1"> </a></b></button><br>
-</div></div></div>
-<!-- End Content -->
+  <!-- End Content -->
 
-<br><br>
+  <br><br>
+
+
+  <!-- Problem Solving About -->
+  <div class="container" style="height: fit-content;">
+    <div id="carouselExampleControls" class="carousel slide border border-4" data-bs-ride="carousel">
+      <div class="my-image">
+
+
+        <div id="problemsolving">
+          <div class="w3-padding-top-1">
+            <h1 class="w3-center">PROBLEM SOLVING</h1><br>
+          </div>
+
+          <div class="w3-half w3-padding-large w3-visible-small"><br><br><br><br>
+            <img src="./images/probelm_solving.jpg" class="w3-round w3-image w3-opacity-min" alt="Table"
+              style="width:90%" id="image"><br><br><br><br>
+          </div>
+
+          <div class="w3-half w3-padding-small">
+            <h1 class="w3-center">DESCRIPTION</h1><br>
+            <!--<h5 class="w3-center"></h5> -->
+            <p class="w3-meduim w3-text-white w3-hide-medium">
+              <b>Problem Solving </b> is the process of finding a solution to issues that are critical and needs to be
+              worked on urgently also requires attention.
+              If a particular person has the ability to cope up with any difficult situation, then that person is said
+              to have problem-solving skills.
+              Problem-solving is considered one of the most valuable skills and organizations consider this skill while
+              hiring an employee.
+              These are the steps for problem-solving:
+              <li class="w3-meduim w3-text-white w3-hide-medium">Identify the problem</li>
+              <li class="w3-meduim w3-text-white w3-hide-medium"> The reason behind the occurrence of the problem </li>
+              <li class="w3-meduim w3-text-white w3-hide-medium">List all the solutions possible for solving that
+                problem </li>
+              <li class="w3-meduim w3-text-white w3-hide-medium">Choose the best fit </li>
+              <li class="w3-meduim w3-text-white w3-hide-medium">Implement the solution </li>
+              <li class="w3-meduim w3-text-white w3-hide-medium">Evaluation of results</li>
+            </p>
+
+
+          </div>
+        </div><br>
+        <a class="nav-link active" aria-current="page"
+          href="https://www.barnesandnoble.com/b/free-ebooks/ebooks-nook/education-general-miscellaneous/decision-making-problem-solving/_/N-ry0Z8qaZzn1">
+          <button class="button1"> <b>Read More</b></button> </a>
+      </div>
+    </div>
+  </div>
+  <!-- End Content -->
+
+  <br><br>
 
   <!-- Time Management About -->
   <div class="container" style="height: fit-content;">
     <div id="carouselExampleControls" class="carousel slide border border-4" data-bs-ride="carousel">
-  <div class="my-image">
-  
-    <div id="timemanagement">
-    <div  class="w3-padding-top-1" >
+      <div class="my-image">
 
-  <h1 class="w3-center">TIME MANAGEMENT</h1><br></div>
-  
-  <div class="w3-half w3-padding-large w3-visible-small"><br><br>
-  <img src="./images/time_management.jpg"  class="w3-round w3-image w3-opacity-min" alt="Table" style="width:90%" id="image"><br><br>
+        <div id="timemanagement">
+          <div class="w3-padding-top-1">
+
+            <h1 class="w3-center">TIME MANAGEMENT</h1><br>
+          </div>
+
+          <div class="w3-half w3-padding-large w3-visible-small"><br><br>
+            <img src="./images/time_management.jpg" class="w3-round w3-image w3-opacity-min" alt="Table"
+              style="width:90%" id="image"><br><br>
+          </div>
+
+          <div class="w3-half w3-padding-small">
+            <h1 class="w3-center">DESCRIPTION</h1><br>
+            <!--<h5 class="w3-center"></h5> -->
+            <p class="w3-meduim w3-text-white w3-hide-medium">
+              <b>Time Management : </b> In order to increase productivity through efficiency and effectiveness,
+              deliberate efforts are made to exercise control of time spent on the activities because it helps bring
+              more discipline and balance in life. While practicing time management focus is the main key.
+              There are 7 ways for better time management:
+              <li class="w3-meduim w3-text-white w3-hide-medium">Focus should be clear.</li>
+              <li class="w3-meduim w3-text-white w3-hide-medium">Prepare a task list that you need to complete. </li>
+              <li class="w3-meduim w3-text-white w3-hide-medium">Put first things first.</li>
+              <li class="w3-meduim w3-text-white w3-hide-medium">Procrastination should be dealt strictly.</li>
+              <li class="w3-meduim w3-text-white w3-hide-medium">Focus on one task at a time (stop multitasking).</li>
+              <li class="w3-meduim w3-text-white w3-hide-medium">Review and compare your completed tasks with the check
+                list.</li>
+            </p>
+
+          </div>
+        </div><br>
+        <a class="nav-link active" aria-current="page"
+          href="http://trongton.free.fr/books/self-help/Time%20Management%20(McGraw-Hill).pdf"><button
+            class="button1"><b>Read More</b></button> </a> <br>
+      </div>
+    </div>
   </div>
-  
-  <div class="w3-half w3-padding-small">
-  <h1 class="w3-center">DESCRIPTION</h1><br>
-  <!--<h5 class="w3-center"></h5> -->
-  <p class="w3-meduim w3-text-white w3-hide-medium">
-      <b>Time Management : </b>  In order to increase productivity through efficiency and effectiveness, deliberate efforts are made to exercise control of time spent on the activities because it helps bring more discipline and balance in life. While practicing time management focus is the main key. 
-      There are 7 ways for better time management:
-      <li class="w3-meduim w3-text-white w3-hide-medium">Focus should be clear.</li>
-      <li class="w3-meduim w3-text-white w3-hide-medium">Prepare a task list that you need to complete. </li>
-      <li class="w3-meduim w3-text-white w3-hide-medium">Put first things first.</li>
-      <li class="w3-meduim w3-text-white w3-hide-medium">Procrastination should be dealt strictly.</li>
-      <li class="w3-meduim w3-text-white w3-hide-medium">Focus on one task at a time (stop multitasking).</li>
-      <li class="w3-meduim w3-text-white w3-hide-medium">Review and compare your completed tasks with the check list.</li>
-       </p>
-  
-      </div></div><br>
-      <button class="button1" ><b>Read More <a class="nav-link active" aria-current="page" href="http://trongton.free.fr/books/self-help/Time%20Management%20(McGraw-Hill).pdf"> </a></b></button><br>
-      </div></div></div>
-      <!-- End Content -->
-      
-      <br><br>
+  <!-- End Content -->
+
+  <br><br>
 
 
 
   <!-- Creative Thinking About -->
   <div class="container" style="height: fit-content;">
-    <div id="carouselExampleControls" class="carousel slide border border-4" data-bs-ride="carousel">
-  <div class="my-image">
-    <div id="creativethinking">
-    <div  class="w3-padding-top-1" >
-  <h1 class="w3-center">CREATIVE THINKING</h1><br></div>
-  
-  <div class="w3-half w3-padding-large w3-visible-small">
-  <img src="./images/creative_thinking.jpg"  class="w3-round w3-image w3-opacity-min" alt="Table" style="width:90%" id="image"><br><br><br><br>
-  </div>
-  
-  <div class="w3-half w3-padding-small">
-  <h1 class="w3-center">DESCRIPTION</h1><br>
-  <!--<h5 class="w3-center"></h5> -->
-  <p class="w3-meduim w3-text-white w3-hide-medium">
-      <b>Creative Thinking </b> is the process of using soft skills and thinking out of the box to solve a problem or deal with a difficult situation is called creative thinking. Brainstorming dramatically helps with creative thinking and eventually, a unique solution to the problem appears.
+    <div id="carouselExampleControls" class="carousel slide border border-4" data-bs-ride="carousel"
+      style="height: 38vw;">
+      <div class="my-image">
+        <div id="creativethinking">
+          <div class="w3-padding-top-1">
+            <h1 class="w3-center">CREATIVE THINKING</h1><br>
+          </div>
 
-       </p>
-  <br> <br> <br> <br> <br>  <br> <br> 
-      </div></div><br>
-      <button class="button1" ><b>Read More <a class="nav-link active" aria-current="page" href="https://bookauthority.org/books/best-creative-thinking-books"> </a></b></button><br>
-      </div></div></div>
-      <!-- End Content -->
-      
-      <br><br>
+          <div class="w3-half w3-padding-large w3-visible-small">
+            <img src="./images/creative_thinking.jpg" class="w3-round w3-image w3-opacity-min" alt="Table"
+              style="width:90%" id="image">
+            <!-- <br><br><br><br> -->
+          </div>
+
+          <div class="w3-half w3-padding-small">
+            <h1 class="w3-center">DESCRIPTION</h1><br>
+            <!--<h5 class="w3-center"></h5> -->
+            <p class="w3-meduim w3-text-white w3-hide-medium">
+              <b>Creative Thinking </b> is the process of using soft skills and thinking out of the box to solve a
+              problem or
+              deal with a difficult situation is called creative thinking. Brainstorming dramatically helps with
+              creative thinking
+              and eventually, a unique solution to the problem appears. lo
+            </p>
+            <!-- <a class="nav-link active" aria-current="page" 
+      href="https://bookauthority.org/books/best-creative-thinking-books"> 
+      <button class="button1" ><b>Read More</b></button> 
+    </a>  -->
+            <!-- <br> <br> <br> <br> <br>  <br> <br>  -->
+          </div>
+        </div><br>
+        <a class="nav-link active" aria-current="page"
+          href="https://bookauthority.org/books/best-creative-thinking-books"> <button class="button1"><b>Read
+              More</b></button> </a>
+      </div>
+    </div>
+  </div>
+  <!-- End Content -->
+
+  <br><br>
 
 
   <!-- Communication About -->
   <div class="container" style="height: fit-content;">
     <div id="carouselExampleControls" class="carousel slide border border-4" data-bs-ride="carousel">
-  <div class="my-image">
-    <div id="communication">
-    <div  class="w3-padding-top-1" >
+      <div class="my-image">
+        <div id="communication">
+          <div class="w3-padding-top-1">
 
-  <h1 class="w3-center">COMMUNICATION</h1><br></div>
-  
-  <div class="w3-half w3-padding-large w3-visible-small">
-  <img src="./images/communication.jpg"  class="w3-round w3-image w3-opacity-min" alt="Table" style="width:90%" id="image">
+            <h1 class="w3-center">COMMUNICATION</h1><br>
+          </div>
+
+          <div class="w3-half w3-padding-large w3-visible-small">
+            <img src="./images/communication.jpg" class="w3-round w3-image w3-opacity-min" alt="Table" style="width:90%"
+              id="image">
+          </div>
+
+          <div class="w3-half w3-padding-small">
+            <h1 class="w3-center">DESCRIPTION</h1><br>
+            <!--<h5 class="w3-center"></h5> -->
+            <p class="w3-meduim w3-text-white w3-hide-medium">
+              <b>Communication </b> is the process where information is transferred through speaking, audio-visuals or
+              writing is called communication It serves as a fundamental tool for learning for humans because the idea,
+              different views, and information is shared and exchanged effectively through communication.
+              There are four types of communication:
+
+              <li class="w3-meduim w3-text-white w3-hide-medium">Passive</li>
+              <li class="w3-meduim w3-text-white w3-hide-medium">Aggressive </li>
+              <li class="w3-meduim w3-text-white w3-hide-medium">Passive-Aggressive</li>
+              <li class="w3-meduim w3-text-white w3-hide-medium">Assertive</li>
+
+            </p>
+
+          </div>
+        </div><br>
+        <button class="button1"><b>Read More <a class="nav-link active" aria-current="page"
+              href="https://enterprisersproject.com/article/2019/8/communication-skills-9-books"> </a></b></button><br>
+      </div>
+    </div>
   </div>
-  
-  <div class="w3-half w3-padding-small">
-  <h1 class="w3-center">DESCRIPTION</h1><br>
-  <!--<h5 class="w3-center"></h5> -->
-  <p class="w3-meduim w3-text-white w3-hide-medium">
-      <b>Communication </b> is  the process where information is transferred through speaking, audio-visuals or writing is called communication It serves as a fundamental tool for learning for humans because the idea, different views, and information is shared and exchanged effectively through communication.
-       There are four types of communication:
-      
-      <li class="w3-meduim w3-text-white w3-hide-medium">Passive</li>
-      <li class="w3-meduim w3-text-white w3-hide-medium">Aggressive </li>
-      <li class="w3-meduim w3-text-white w3-hide-medium">Passive-Aggressive</li>
-      <li class="w3-meduim w3-text-white w3-hide-medium">Assertive</li>
-      
-       </p>
-  
-      </div></div><br>
-      <button class="button1" ><b>Read More <a class="nav-link active" aria-current="page" href="https://enterprisersproject.com/article/2019/8/communication-skills-9-books"> </a></b></button><br>
-      </div></div></div>
-      <!-- End Content -->
-      
-      <br><br>
-  
+  <!-- End Content -->
+
+  <br><br>
+
 
   <!-- Interpersonal About -->
   <div class="container" style="height: fit-content;">
-    <div id="carouselExampleControls" class="carousel slide border border-4" data-bs-ride="carousel">
-  <div class="my-image">
-    <div id="interpersonal">
-    <div  class="w3-padding-top-1" >
+    <di v id="carouselExampleControls" class="carousel slide border border-4" data-bs-ride="carousel">
+      <div class="my-image">
+        <div id="interpersonal">
+          <div class="w3-padding-top-1">
 
-  <h1 class="w3-center">INTERPERSONAL RELATIONSHIP</h1><br></div>
-  
-  <div class="w3-half w3-padding-large w3-visible-small"><br>
-  <img src="./images/interpersonal_relationship.jpg"  class="w3-round w3-image w3-opacity-min" alt="Table" style="width:90%" id="image">
+            <h1 class="w3-center">INTERPERSONAL RELATIONSHIP</h1><br>
+          </div>
+
+          <div class="w3-half w3-padding-large w3-visible-small"><br>
+            <img src="./images/interpersonal_relationship.jpg" class="w3-round w3-image w3-opacity-min" alt="Table"
+              style="width:90%" id="image">
+          </div>
+
+          <div class="w3-half w3-padding-small">
+            <h1 class="w3-center">DESCRIPTION</h1><br>
+            <!--<h5 class="w3-center"></h5> -->
+            <p class="w3-meduim w3-text-white w3-hide-medium">
+              <b>Interpersonal Relationship </b> is behavioral skills are the methods and techniques a person uses to
+              communicate effectively with others.
+              In a business setting, the term refers to an employee's ability to get along well with others.
+              Social skills begin in communication and listening to attitude and deportation.
+
+            </p>
+            <br> <br> <br>
+          </div>
+        </div><br>
+        <button class="button1"><b>Read More<a class="nav-link active" aria-current="page"
+              href="https://www.verywellmind.com/interpersonal-skills-self-help-books-3024246"> </a></b></button><br>
+      </div>
   </div>
-  
-  <div class="w3-half w3-padding-small">
-  <h1 class="w3-center">DESCRIPTION</h1><br>
-  <!--<h5 class="w3-center"></h5> -->
-  <p class="w3-meduim w3-text-white w3-hide-medium">
-      <b>Interpersonal Relationship  </b>  is behavioral skills are the methods and techniques a person uses to communicate effectively with others.
-       In a business setting, the term refers to an employee's ability to get along well with others. 
-       Social skills begin in communication and listening to attitude and deportation.
-
-       </p>
-       <br> <br> <br> 
-      </div></div><br>
-      <button class="button1" ><b>Read More<a class="nav-link active" aria-current="page" href="https://www.verywellmind.com/interpersonal-skills-self-help-books-3024246"> </a></b></button><br>
-      </div></div></div>
-      <!-- End Content -->
-      
-      <br><br>
-
-
-
-   <!-- Stress About -->
-   <div class="container" style="height: fit-content;">
-    <div id="carouselExampleControls" class="carousel slide border border-4" data-bs-ride="carousel">
-  <div class="my-image">
-    <div id="stress">
-    <div  class="w3-padding-top-1" >
-  <h1 class="w3-center">COPING WITH STRESS</h1><br></div>
-  
-  <div class="w3-half w3-padding-large w3-visible-small"><br>
-  <img src="./images/coping_stress.jpg"  class="w3-round w3-image w3-opacity-min" alt="Table" style="width:90%" id="image"><br><br>
   </div>
-  
-  <div class="w3-half w3-padding-small">
-  <h1 class="w3-center">DESCRIPTION</h1><br>
-  <!--<h5 class="w3-center"></h5> -->
-  <p class="w3-meduim w3-text-white w3-hide-medium">
-      <b>Coping With Stress </b>   is a buzzword that you may have heard recently? If you do a quick search on Pinterest, 
-      you will find hundreds of pins about coping skills… all from Coping Skills Bingo to create your Wheel of Coping Skills. 
-      Blogs and articles like these can provide useful tips on how to use problem-solving skills, but they don't always provide some very important background information… things like coping skills, and why you use coping skills? So, this article is my own personal attempt to answer similar questions!
+  <!-- End Content -->
+
+  <br><br>
 
 
-       </p>
-  
-      </div></div><br>
-      <button class="button1" ><b>Read More<a class="nav-link active" aria-current="page" href="https://keltymentalhealth.ca/sites/default/files/resources/toolkit_for_professionals-_module_4_-_stress_management.pdf"> </a></b></button><br>
-      </div></div></div>
-      <!-- End Content -->
-      
-      <br><br>
+
+  <!-- Stress About -->
+  <div class="container" style="height: fit-content;">
+    <div id="carouselExampleControls" class="carousel slide border border-4" data-bs-ride="carousel">
+      <div class="my-image">
+        <div id="stress">
+          <div class="w3-padding-top-1">
+            <h1 class="w3-center">COPING WITH STRESS</h1><br>
+          </div>
+
+          <div class="w3-half w3-padding-large w3-visible-small"><br>
+            <img src="./images/coping_stress.jpg" class="w3-round w3-image w3-opacity-min" alt="Table" style="width:90%"
+              id="image"><br><br>
+          </div>
+
+          <div class="w3-half w3-padding-small">
+            <h1 class="w3-center">DESCRIPTION</h1><br>
+            <!--<h5 class="w3-center"></h5> -->
+            <p class="w3-meduim w3-text-white w3-hide-medium">
+              <b>Coping With Stress </b> is a buzzword that you may have heard recently? If you do a quick search on
+              Pinterest,
+              you will find hundreds of pins about coping skills… all from Coping Skills Bingo to create your Wheel of
+              Coping Skills.
+              Blogs and articles like these can provide useful tips on how to use problem-solving skills, but they don't
+              always provide some very important background information… things like coping skills, and why you use
+              coping skills? So, this article is my own personal attempt to answer similar questions!
+
+
+            </p>
+
+          </div>
+        </div><br>
+        <button class="button1"><b>Read More<a class="nav-link active" aria-current="page"
+              href="https://keltymentalhealth.ca/sites/default/files/resources/toolkit_for_professionals-_module_4_-_stress_management.pdf">
+            </a></b></button><br>
+      </div>
+    </div>
+  </div>
+  <!-- End Content -->
+
+  <br><br>
 
 
   <!-- Emotional Intelligence About -->
   <div class="container">
     <div id="carouselExampleControls" class="carousel slide border border-4" data-bs-ride="carousel">
-  <div class="my-image">
-    <div id="emotional">
-    <div  class="w3-padding-top-1" >
-  <h1 class="w3-center">EMOTIONAL INTELLIGENCE</h1><br></div>
-  
-  <div class="w3-half w3-padding-large w3-visible-small">
-  <img src="./images/emotional-intelligence2.jpg"  class="w3-round w3-image w3-opacity-min" alt="Table" style="width:90%" id="image"><br>    
-  </div>
-  
-  <div class="w3-half w3-padding-small">
-  <h1 class="w3-center">DESCRIPTION</h1><br>
-  <!--<h5 class="w3-center"></h5> -->
-  <p class="w3-meduim w3-text-white w3-hide-medium">
-      <b>Emotional Intelligence </b>  is (<i>also known as an emotional quotient or EQ</i>) is the ability to understand, use, and manage your emotions in effective ways to relieve stress, communicate effectively, empathize with others, overcome challenges and resolve conflicts. Emotional intelligence helps you to build strong relationships, succeed in school and work, and achieve your career goals and goals. 
-      It can also help you to communicate your feelings, turn purpose into action, and make informed decisions about what is most important to you.
-</p>
-<br><br>
-  
-</div></div>
-<button class="button1" ><b>Read More <a class="nav-link active" aria-current="page" href="http://dspace.vnbrims.org:13000/jspui/bitstream/123456789/4733/1/Leadership%20The%20Power%20of%20Emotional%20Intellegence.pdf"> </a></b></button><br>
-</div></div></div>
-<!-- End Content -->
+      <div class="my-image">
+        <div id="emotional">
+          <div class="w3-padding-top-1">
+            <h1 class="w3-center">EMOTIONAL INTELLIGENCE</h1><br>
+          </div>
 
-<br><br>
+          <div class="w3-half w3-padding-large w3-visible-small">
+            <img src="./images/emotional-intelligence2.jpg" class="w3-round w3-image w3-opacity-min" alt="Table"
+              style="width:90%" id="image"><br>
+          </div>
 
-<!--Public Speakers card-1 -->
-<div class="container" style="height: fit-content;">
-  <div id="carouselExampleControls" class="carousel slide border border-4" data-bs-ride="carousel">
-<div class="my-image">
-  <div id="speakers">
-  <div  class="w3-padding-top-1" >
-    <div class="row d-flex ">
-  <div class="col-md-4">
-    <div class="card text-content">
-      <img class="card-img-top rounded" src="./images/sandeep.jpg"  alt="sandeep mehswaris">
-      <div class="card-body">
-          <p>          
-            <blockquote>
-               <strong>"  Never let your <b>emotions</b> cloud your judgement. Always think logical ."</strong>
-            </blockquote>
-          </p>
-          <h5 id="h5">--Sandeep Maheshwari--</h5>
-          <button  <a href="https://www.youtube.com/watch?v=yNQf5YFL2Ns" target="blank" class="button1"></a><b>See More</b></button>
-      </div>
-
-    </div>
-
-  </div>
-  <!--End card-->
-  <!--Public Speakers card-2 -->
-  
-  <div class="col-md-4">
-    <div class="card text-content">
-      <img class="card-img-top rounded" src="./images/Martin-Luther-King-Jr-GETTY-2.jpg"  alt="Martin Luther King Jr.">
-      <div class="card-body">
-          <p>          
-          <blockquote>
-               <strong>" We must accept finite disappointment, but we must never lose infinite hope."</strong>
-              </blockquote>
-          </p>
-          <h5 id="h5">--Martin Luther King--</h5>
-          <button <a href="https://www.youtube.com/watch?v=FrfYcNFKi3As" target="blank" class="button1"></a><b>See More</b></button>
-      </div>
-
-    </div>
-
-  </div>
-  
-     <!--End card-->
-     <!--Public Speakers card-3 -->
-     <div class="col-md-4">
-      <div class="card text-content">
-        <img class="card-img-top rounded" src="./images/muniba1.jpg"  alt="Muniba Mazari">
-        <div class="card-body">
-            <p>          
-              <blockquote>
-                 <strong>" When you accept yourself the way you are,  then the world will recognizes you."</strong>
-              </blockquote>
+          <div class="w3-half w3-padding-small">
+            <h1 class="w3-center">DESCRIPTION</h1><br>
+            <!--<h5 class="w3-center"></h5> -->
+            <p class="w3-meduim w3-text-white w3-hide-medium">
+              <b>Emotional Intelligence </b> is (<i>also known as an emotional quotient or EQ</i>) is the ability to
+              understand, use, and manage your emotions in effective ways to relieve stress, communicate effectively,
+              empathize with others, overcome challenges and resolve conflicts. Emotional intelligence helps you to
+              build strong relationships, succeed in school and work, and achieve your career goals and goals.
+              It can also help you to communicate your feelings, turn purpose into action, and make informed decisions
+              about what is most important to you.
             </p>
-            <h5 id="h5">-- Muniba Mazari --</h5>
-            <button <a href="https://www.youtube.com/watch?v=rJdO8TUCtwc" target="blank" class="button1"></a><b>See More</b></button>
+            <br><br>
+
+          </div>
+        </div>
+        <button class="button1"><b>Read More <a class="nav-link active" aria-current="page"
+              href="http://dspace.vnbrims.org:13000/jspui/bitstream/123456789/4733/1/Leadership%20The%20Power%20of%20Emotional%20Intellegence.pdf">
+            </a></b></button><br>
+      </div>
+    </div>
+  </div>
+  <!-- End Content -->
+
+  <br><br>
+
+  <!--Public Speakers card-1 -->
+  <div class="container" style="height: fit-content;">
+    <div id="carouselExampleControls" class="carousel slide border border-4" data-bs-ride="carousel">
+      <div class="my-image">
+        <div id="speakers">
+          <div class="w3-padding-top-1">
+            <div class="row d-flex ">
+              <div class="col-md-4">
+                <div class="card text-content">
+                  <img class="card-img-top rounded" src="./images/sandeep.jpg" alt="sandeep mehswaris">
+                  <div class="card-body">
+                    <p>
+                    <blockquote>
+                      <strong>" Never let your <b>emotions</b> cloud your judgement. Always think logical ."</strong>
+                    </blockquote>
+                    </p>
+                    <h5 id="h5">--Sandeep Maheshwari--</h5>
+                    <a href="https://www.youtube.com/watch?v=yNQf5YFL2Ns" target="blank"
+                      style="text-decoration: none;"><button class="button1"><b>See More</b></button></a>
+                  </div>
+
+                </div>
+
+              </div>
+              <!--End card-->
+              <!--Public Speakers card-2 -->
+
+              <div class="col-md-4">
+                <div class="card text-content">
+                  <img class="card-img-top rounded" src="./images/Martin-Luther-King-Jr-GETTY-2.jpg"
+                    alt="Martin Luther King Jr.">
+                  <div class="card-body">
+                    <p>
+                    <blockquote>
+                      <strong>" We must accept finite disappointment, but we must never lose infinite hope."</strong>
+                    </blockquote>
+                    </p>
+                    <h5 id="h5">--Martin Luther King--</h5>
+                    <a href="https://www.youtube.com/watch?v=FrfYcNFKi3As" target="blank"
+                      style="text-decoration: none;"><button class="button1"><b>See More</b></button></a>
+                  </div>
+
+                </div>
+
+              </div>
+
+              <!--End card-->
+              <!--Public Speakers card-3 -->
+              <div class="col-md-4">
+                <div class="card text-content">
+                  <img class="card-img-top rounded" src="./images/muniba1.jpg" alt="Muniba Mazari">
+                  <div class="card-body">
+                    <p>
+                    <blockquote>
+                      <strong>" When you accept yourself the way you are, then the world will recognizes you."</strong>
+                    </blockquote>
+                    </p>
+                    <h5 id="h5">-- Muniba Mazari --</h5>
+                    <a href="https://www.youtube.com/watch?v=rJdO8TUCtwc" target="blank"
+                      style="text-decoration: none;"><button class="button1"><b>See More</b></button></a>
+                  </div>
+                </div>
+              </div>
+
+              <br><br>
+              <!--End card-->
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    
-    <br><br>
-     <!--End card-->
-     </div></div></div></div>
-     <!--footer-->
-     <div class="row d-flex ">
-      <div class="footer d-flex justify-content-center">
-       <p class="footer">@ Group#1 CapStone Project, #Circle Women(Tech Karo) 2021:  </p>
-      <!-- <ul class="list-unstyled ">
+      <!--footer-->
+      <div class="row d-flex ">
+        <div class="footer d-flex justify-content-center">
+          <p class="footer">@ Group#1 CapStone Project, #Circle Women(Tech Karo) 2021: </p>
+          <!-- <ul class="list-unstyled ">
          <li><a href=""><i class="fab fa-github-square"></i></a></li>
 
        </ul>-->
-     </div>
+        </div>
 
-     </div>  
+      </div>
+
+      <!-- JS Files -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+      <script src="main.js"></script>
+      <!--<script src="index.js"></script>-->
+
+      <script src="index.js"></script>
 </body>
 
 </html>
